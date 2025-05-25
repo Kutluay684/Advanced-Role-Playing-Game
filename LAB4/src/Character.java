@@ -47,7 +47,10 @@ public class Character {
         setExperience(getExperience() + 20);
 
     }
-
+    public void defense()
+    {
+        System.out.println("Defending" + getName());
+    }
     public void regeneratePower() {
         System.out.println("Regenerating Power");
     }
@@ -64,6 +67,7 @@ public class Character {
     public void levelUp() {
         setExperience(getExperience() - 100);
         setLevel(getLevel() + 1);
+        System.out.println("Level UP Now:"+getLevel());
     }
 
     public void printInfo() {

@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class Mage extends Character {
     public Mage() {
